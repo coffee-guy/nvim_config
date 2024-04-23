@@ -65,6 +65,7 @@ local nmappings = {
 	-- { from = "sh",            to = "se", },
 	-- { from = "sh",            to = "<C-w>t<C-w>K", },
 	-- { from = "sv",            to = "<C-w>t<C-w>H", },
+	-- roate
 	{ from = "srh",           to = "<C-w>b<C-w>K", },
 	{ from = "srv",           to = "<C-w>b<C-w>H", },
 
@@ -73,6 +74,7 @@ local nmappings = {
 	{ from = "tU",            to = ":tab split<CR>", },
 	{ from = "ta",            to = ":-tabnext<CR>", },
 	{ from = "tl",            to = ":+tabnext<CR>", },
+	-- t move a/l
 	{ from = "tma",           to = ":-tabmove<CR>", },
 	{ from = "tml",           to = ":+tabmove<CR>", },
 

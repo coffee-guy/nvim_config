@@ -21,7 +21,6 @@ local lazy_keys = {
 	{ cmd = "log",     key = "l" },
 	{ cmd = "restore", key = "rs" },
 	{ cmd = "profile", key = "p" },
-	{ cmd = "profile", key = "p" },
 }
 for _, v in ipairs(lazy_keys) do
 	lazy_cmd[v.cmd].key = "<SPC>" .. v.key
